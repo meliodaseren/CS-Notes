@@ -1,6 +1,6 @@
 | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| 算法[:pencil2:](#pencil2-算法) | 操作系统[:computer:](#computer-操作系统)|网络[:cloud:](#cloud-网络) | 面向对象[:couple:](#couple-面向对象) |数据库[:floppy_disk:](#floppy_disk-数据库)| Java [:coffee:](#coffee-java)| 系统设计[:bulb:](#bulb-系统设计)| 工具[:hammer:](#hammer-工具)| 编码实践[:speak_no_evil:](#speak_no_evil-编码实践)| 后记[:memo:](#memo-后记) |
+| 演算法[:pencil2:](#pencil2-演算法) | 作業系統[:computer:](#computer-作業系統) | 網路[:cloud:](#cloud-網路) | 物件導向[:couple:](#couple-物件導向) | 資料庫[:floppy_disk:](#floppy_disk-資料庫) | Java [:coffee:](#coffee-java) | 系統設計[:bulb:](#bulb-系統設計) | 工具[:hammer:](#hammer-工具) | 編碼實踐[:speak_no_evil:](#speak_no_evil-編碼實踐) | 後記[:memo:](#memo-後記) |
 
 <br>
 
@@ -10,125 +10,125 @@
     <a href="other/Group.md"> <img src="https://img.shields.io/badge/>-group-4ab8a1.svg"></a> <a href="https://legacy.gitbook.com/book/cyc2018/interview-notebook/details"> <img src="https://img.shields.io/badge/_-gitbook-4ab8a1.svg"></a> 
 </div>
 
-### :pencil2: 算法
+### :pencil2: 演算法
 
-- [剑指 Offer 题解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/剑指%20offer%20题解.md)
+- [劍指 Offer 題解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/剑指%20offer%20题解.md)
 
-  目录根据原书第二版进行编排，代码和原书有所不同，尽量比原书更简洁。
+  目錄根據原書第二版進行編排，代碼和原書有所不同，盡量比原書更簡潔。
 
-- [Leetcode 题解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Leetcode%20题解.md)
+- [Leetcode 題解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Leetcode%20题解.md)
 
-  对题目做了一个大致分类，并对每种题型的解题思路做了总结。
+  對題目做了一個大致分類，並對每種題型的解題思路做了總結。
   
- - [算法](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/算法.md)
+ - [演算法](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/算法.md)
 
-   排序、并查集、栈和队列、红黑树、散列表。
+   排序、並查集、棧和隊列、紅黑樹、散列表。
 
-### :computer: 操作系统
+### :computer: 作業系統
 
-- [计算机操作系统](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机操作系统.md)
+- [計算機作業系統](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机操作系统.md)
 
-  进程管理、内存管理、设备管理、链接。
+  進程管理、內存管理、設備管理、鏈接。
 
 - [Linux](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Linux.md)
 
-  基本实现原理以及基本操作。
+  基本實現原理以及基本操作。
 
-### :cloud: 网络 
+### :cloud: 網路
 
-- [计算机网络](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机网络.md)
+- [計算機網路](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机网络.md)
 
-  物理层、链路层、网络层、运输层、应用层。
+  物理層、鏈路層、網絡層、運輸層、應用層。
 
 - [HTTP](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/HTTP.md)
 
-  方法、状态码、Cookie、缓存、连接管理、HTTPs、HTTP 2.0。
+  方法、狀態碼、Cookie、緩存、連接管理、HTTPs、HTTP 2.0。
 
 - [Socket](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Socket.md)
 
-  I/O 模型、I/O 多路复用。
+  I/O 模型、I/O 多路復用。
 
-### :couple: 面向对象
+### :couple: 物件導向
 
-- [设计模式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/设计模式.md)
+- [設計模式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/设计模式.md)
 
-  实现了 Gof 的 23 种设计模式。
+  實現了 Gof 的 23 種設計模式。
 
-- [面向对象思想](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/面向对象思想.md)
+- [物件導向思想](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/面向对象思想.md)
 
-  三大原则（继承、封装、多态）、类图、设计原则。
+  三大原則（繼承、封裝、多態）、類圖、設計原則。
 
-### :floppy_disk: 数据库 
+### :floppy_disk: 資料庫 
 
-- [数据库系统原理](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/数据库系统原理.md)
+- [資料庫系統原理](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/数据库系统原理.md)
 
-  事务、锁、隔离级别、MVCC、间隙锁、范式。
+  事務、鎖、隔離級別、MVCC、間隙鎖、範式。
 
 - [SQL](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/SQL.md)
 
-  SQL 基本语法。
+  SQL 基本語法。
 
-- [Leetcode-Database 题解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Leetcode-Database%20题解.md)
+- [Leetcode-Database 題解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Leetcode-Database%20题解.md)
 
-  Leetcode 上数据库题目的解题记录。
+  Leetcode 上資料庫題目的解題記錄。
 
 - [MySQL](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/MySQL.md)
 
-  存储引擎、索引、查询优化、切分、复制。
+  存儲引擎、索引、查詢優化、切分、復制。
 
 - [Redis](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Redis.md)
 
-  五种数据类型、字典和跳跃表数据结构、使用场景、和 Memcache 的比较、淘汰策略、持久化、文件事件的 Reactor 模式、复制。
+  五種數據類型、字典和跳躍表數據結構、使用場景、和 Memcache 的比較、淘汰策略、持久化、文件事件的 Reactor 模式、復制。
 
 ### :coffee: Java
 
-- [Java 基础](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20基础.md)
+- [Java 基礎](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20基础.md)
 
-  不会涉及很多基本语法介绍，主要是一些实现原理以及关键特性。
+  不會涉及很多基本語法介紹，主要是一些實現原理以及關鍵特性。
 
 - [Java 容器](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20容器.md)
 
-  源码分析：ArrayList、Vector、CopyOnWriteArrayList、LinkedList、HashMap、ConcurrentHashMap、LinkedHashMap、WeekHashMap。
+  源碼分析：ArrayList、Vector、CopyOnWriteArrayList、LinkedList、HashMap、ConcurrentHashMap、LinkedHashMap、WeekHashMap。
 
-- [Java 并发](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20并发.md)
+- [Java 並發](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20并发.md)
 
-  线程使用方式、两种互斥同步方法、线程协作、JUC、线程安全、内存模型、锁优化。
+  線程使用方式、兩種互斥同步方法、線程協作、JUC、線程安全、內存模型、鎖優化。
 
-- [Java 虚拟机](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20虚拟机.md)
+- [JVM](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20虚拟机.md)
 
-  运行时数据区域、垃圾收集、类加载。
+  運行時數據區域、垃圾收集、類加載。
 
 - [Java I/O](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20IO.md)
 
-  NIO 的原理以及实例。
+  NIO 的原理以及實例。
 
-### :bulb: 系统设计 
+### :bulb: 系統設計
 
-- [系统设计基础](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/系统设计基础.md)
+- [系統設計基礎](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/系统设计基础.md)
 
-  性能、伸缩性、扩展性、可用性、安全性
+  性能、伸縮性、擴展性、可用性、安全性
 
-- [分布式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/分布式.md)
+- [分散式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/分布式.md)
 
-  分布式锁、分布式事务、CAP、BASE、Paxos、Raft
+  分散式鎖、分散式事務、CAP、BASE、Paxos、Raft
 
 - [集群](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/集群.md)
 
-  负载均衡、Session 管理
+  負載均衡、Session 管理
 
-- [攻击技术](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/攻击技术.md)
+- [攻擊技術](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/攻击技术.md)
 
   XSS、CSRF、SQL 注入、DDoS
 
-- [缓存](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/缓存.md)
+- [快取](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/缓存.md)
 
-  缓存特征、缓存位置、缓存问题、数据分布、一致性哈希、LRU、CDN
+  快取特徵、快取位置、快取問題、數據分布、一致性哈希、LRU、CDN
 
-- [消息队列](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/消息队列.md)
+- [訊息佇列](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/消息队列.md)
 
-  消息处理模型、使用场景、可靠性
+  訊息處理模型、使用場景、可靠性
 
-### :hammer: 工具 
+### :hammer: 工具
 
 - [Git](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Git.md)
 
@@ -138,63 +138,63 @@
 
   Docker 基本原理。
 
-- [正则表达式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/正则表达式.md)
+- [正規表達是](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/正则表达式.md)
 
-  正则表达式基本语法。
+  正規表達是基本語法。
 
-- [构建工具](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/构建工具.md)
+- [構建工具](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/构建工具.md)
 
-  构建工具的基本概念、主流构建工具介绍。
+  構記工具的基本觀念、主流建構工具介紹。
 
-### :speak_no_evil: 编码实践 
+### :speak_no_evil: 編碼實踐
 
-- [重构](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/重构.md)
+- [重構](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/重构.md)
 
-  参考 重构 改善既有代码的设计。
+  參考 重構 改善既有代碼的設計。
 
-- [代码可读性](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/代码可读性.md)
+- [代碼可讀性](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/代码可读性.md)
 
-  参考 编写可读代码的艺术。
+  參考 編寫可讀代碼的藝術。
 
-- [代码风格规范](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/代码风格规范.md)
+- [編程風格規範](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/代码风格规范.md)
 
-  Google 开源项目的代码风格规范。
+  Google 開源項目的代碼風格規範。
 
-### :memo: 后记 
+### :memo: 後記
 
 #### About
 
-本仓库主要是根据计算机经典书籍以及官方技术文档进行总结的学习笔记，希望对大家有所帮助。
+本倉庫主要是根據計算機經典書籍以及官方技術文檔進行總結的學習筆記，希望對大家有所幫助。
 
-学习笔记不是从网上到处拼凑而来，除了少部分引用书上和技术文档的原文，其余都是笔者的原创。在您引用本仓库内容或者对内容进行修改演绎时，请遵循文末的开源协议，谢谢。
+學習筆記不是從網上到處拼湊而來，除了少部分引用書上和技術文檔的原文，其余都是筆者的原創。在您引用本倉庫內容或者對內容進行修改演繹時，請遵循文末的開源協議，謝謝。
 
 #### BookList
 
-本仓库参考的书目：[BOOKLIST](https://github.com/CyC2018/Interview-Notebook/blob/master/BOOKLIST.md)。
+本倉庫參考的書目：[BOOKLIST](https://github.com/CyC2018/Interview-Notebook/blob/master/BOOKLIST.md)。
 
 #### How To Contribute
 
-笔记内容是笔者一个字一个字打上去的，难免会有一些笔误，如果发现笔误可直接对相应文档进行编辑修改。
+筆記內容是筆者一個字一個字打上去的，難免會有一些筆誤，如果發現筆誤可直接對相應文檔進行編輯修改。
 
-如果想要提交一个仓库现在还没有的全新内容，可以先将相应的文档放到 other 目录下。
+如果想要提交一個倉庫現在還沒有的全新內容，可以先將相應的文檔放到 other 目錄下。
 
-欢迎在 Issue 中提交对本仓库的改进建议~
+歡迎在 Issue 中提交對本倉庫的改進建議~
 
 #### Typesetting
 
-笔记内容按照 [中文文案排版指北](http://mazhuang.org/wiki/chinese-copywriting-guidelines/) 进行排版，以保证内容的可读性。
+筆記內容按照 [中文文案排版指北](http://mazhuang.org/wiki/chinese-copywriting-guidelines/) 進行排版，以保證內容的可讀性。
 
-笔记不使用 `![]()` 这种方式来引用图片，而是用 `<img>` 标签。一方面是为了能够控制图片以合适的大小显示，另一方面是因为 GFM 不支持 `<center> ![]() </center>` 让图片居中显示，只能使用 `<div align="center"> <img src=""/> </div>` 达到居中的效果。
+筆記不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 GFM 不支持 `<center> ![]() </center>` 讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
 
-笔者将自己实现的文档排版功能提取出来，放在 Github Page 中，无需下载安装即可免费使用：[Text-Typesetting](https://github.com/CyC2018/Markdown-Typesetting)。
+筆者將自己實現的文檔排版功能提取出來，放在 Github Page 中，無需下載安裝即可免費使用：[Text-Typesetting](https://github.com/CyC2018/Markdown-Typesetting)。
 
 #### Uploading
 
-笔者在本地使用为知笔记软件进行书写，为了方便将本地笔记内容上传到 Github 上，实现了一整套自动化上传方案，包括文本文件的导出、提取图片、Markdown 文档转换、Git 同步。
+筆者在本地使用為知筆記軟件進行書寫，為了方便將本地筆記內容上傳到 Github 上，實現了一整套自動化上傳方案，包括文本文件的導出、提取圖片、Markdown 文檔轉換、Git 同步。
 
-进行 Markdown 文档转换是因为 Github 使用的 GFM 不支持 MathJax 公式和 TOC 标记，所以需要替换 MathJax 公式为 CodeCogs 的云服务和重新生成 TOC 目录。
+進行 Markdown 文檔轉換是因為 Github 使用的 GFM 不支持 MathJax 公式和 TOC 標記，所以需要替換 MathJax 公式為 CodeCogs 的雲服務和重新生成 TOC 目錄。
 
-笔者将自己实现文档转换功能提取出来，方便大家在需要将本地 Markdown 上传到 Github，或者制作项目 README 文档时生成目录时使用：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
+筆者將自己實現文檔轉換功能提取出來，方便大家在需要將本地 Markdown 上傳到 Github，或者制作項目 README 文檔時生成目錄時使用：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
 
 #### Logo
 
@@ -202,11 +202,11 @@ Power by [logomakr](https://logomakr.com/).
 
 #### Statement
 
-本仓库不参与商业行为，不向读者收取任何费用。(This repository is not engaging in business activities, and does not charge readers any fee.)
+本倉庫不參與商業行為，不向讀者收取任何費用。 (This repository is not engaging in business activities, and does not charge readers any fee.)
 
 #### Acknowledgements
 
-感谢以下人员对本仓库做出的贡献，当然不仅仅只有这些贡献者，这里就不一一列举了。如果你希望被添加到这个名单中，并且提交过 Issue 或者 PR，请与笔者联系。
+感謝以下人員對本倉庫做出的貢獻，當然不僅僅只有這些貢獻者，這裡就不一一列舉了。如果你希望被添加到這個名單中，並且提交過 Issue 或者 PR，請與筆者聯系。
 
 <a href="https://github.com/linw7">
 ​    <img src="https://avatars3.githubusercontent.com/u/21679154?s=400&v=4" width="50px">
@@ -235,7 +235,6 @@ Power by [logomakr](https://logomakr.com/).
 
 #### License
 
-在对本作品进行演绎时，请署名并以相同方式共享。
+在對本作品進行演繹時，請署名並以相同方式共享。
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知識共享許可協議" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
