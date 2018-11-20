@@ -74,7 +74,7 @@
 
 - [MySQL](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/MySQL.md)
 
-  存儲引擎、索引、查詢優化、切分、復制。
+  儲存引擎、索引、查詢優化、切分、復制。
 
 - [Redis](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Redis.md)
 
@@ -138,9 +138,9 @@
 
   Docker 基本原理。
 
-- [正規表達是](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/正则表达式.md)
+- [正規表達示](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/正则表达式.md)
 
-  正規表達是基本語法。
+  正規表達示基本語法。
 
 - [構建工具](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/构建工具.md)
 
