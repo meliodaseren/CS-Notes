@@ -7,156 +7,156 @@
 <div align="center">
     <img src="other/LogoMakr_0zpEzN.png" width="150px">
     <br>
-    <a href="other/Group.md"> <img src="https://img.shields.io/badge/>-group-4ab8a1.svg"></a> <a href="https://legacy.gitbook.com/book/cyc2018/interview-notebook/details"> <img src="https://img.shields.io/badge/_-gitbook-4ab8a1.svg"></a> 
+    <a href="other/Group.md"> <img src="https://img.shields.io/badge/>-group-4ab8a1.svg"></a> <a href="https://legacy.gitbook.com/book/meliodaseren/interview-notebook/details"> <img src="https://img.shields.io/badge/_-gitbook-4ab8a1.svg"></a> 
 </div>
 
 ### :pencil2: 演算法
 
-- [劍指 Offer 題解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/剑指%20offer%20题解.md)
+- [劍指 Offer 題解](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/剑指%20offer%20题解.md)
 
   目錄根據原書第二版進行編排，代碼和原書有所不同，盡量比原書更簡潔。
 
-- [Leetcode 題解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Leetcode%20题解.md)
+- [Leetcode 題解](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Leetcode%20题解.md)
 
   對題目做了一個大致分類，並對每種題型的解題思路做了總結。
   
- - [演算法](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/算法.md)
+ - [演算法](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/算法.md)
 
    排序、並查集、棧和隊列、紅黑樹、散列表。
 
 ### :computer: 作業系統
 
-- [計算機作業系統](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机操作系统.md)
+- [計算機作業系統](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/计算机操作系统.md)
 
   進程管理、內存管理、設備管理、鏈接。
 
-- [Linux](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Linux.md)
+- [Linux](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Linux.md)
 
   基本實現原理以及基本操作。
 
 ### :cloud: 網路
 
-- [計算機網路](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机网络.md)
+- [計算機網路](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/计算机网络.md)
 
   物理層、鏈路層、網絡層、運輸層、應用層。
 
-- [HTTP](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/HTTP.md)
+- [HTTP](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/HTTP.md)
 
   方法、狀態碼、Cookie、緩存、連接管理、HTTPs、HTTP 2.0。
 
-- [Socket](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Socket.md)
+- [Socket](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Socket.md)
 
   I/O 模型、I/O 多路復用。
 
 ### :couple: 物件導向
 
-- [設計模式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/设计模式.md)
+- [設計模式](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/设计模式.md)
 
   實現了 Gof 的 23 種設計模式。
 
-- [物件導向思想](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/面向对象思想.md)
+- [物件導向思想](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/面向对象思想.md)
 
   三大原則（繼承、封裝、多態）、類圖、設計原則。
 
 ### :floppy_disk: 資料庫 
 
-- [資料庫系統原理](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/数据库系统原理.md)
+- [資料庫系統原理](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/数据库系统原理.md)
 
   事務、鎖、隔離級別、MVCC、間隙鎖、範式。
 
-- [SQL](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/SQL.md)
+- [SQL](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/SQL.md)
 
   SQL 基本語法。
 
-- [Leetcode-Database 題解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Leetcode-Database%20题解.md)
+- [Leetcode-Database 題解](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Leetcode-Database%20题解.md)
 
   Leetcode 上資料庫題目的解題記錄。
 
-- [MySQL](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/MySQL.md)
+- [MySQL](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/MySQL.md)
 
   儲存引擎、索引、查詢優化、切分、復制。
 
-- [Redis](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Redis.md)
+- [Redis](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Redis.md)
 
   五種數據類型、字典和跳躍表數據結構、使用場景、和 Memcache 的比較、淘汰策略、持久化、文件事件的 Reactor 模式、復制。
 
 ### :coffee: Java
 
-- [Java 基礎](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20基础.md)
+- [Java 基礎](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Java%20基础.md)
 
   不會涉及很多基本語法介紹，主要是一些實現原理以及關鍵特性。
 
-- [Java 容器](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20容器.md)
+- [Java 容器](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Java%20容器.md)
 
   源碼分析：ArrayList、Vector、CopyOnWriteArrayList、LinkedList、HashMap、ConcurrentHashMap、LinkedHashMap、WeekHashMap。
 
-- [Java 並發](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20并发.md)
+- [Java 並發](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Java%20并发.md)
 
   線程使用方式、兩種互斥同步方法、線程協作、JUC、線程安全、內存模型、鎖優化。
 
-- [JVM](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20虚拟机.md)
+- [JVM](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Java%20虚拟机.md)
 
   運行時數據區域、垃圾收集、類加載。
 
-- [Java I/O](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20IO.md)
+- [Java I/O](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Java%20IO.md)
 
   NIO 的原理以及實例。
 
 ### :bulb: 系統設計
 
-- [系統設計基礎](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/系统设计基础.md)
+- [系統設計基礎](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/系统设计基础.md)
 
   性能、伸縮性、擴展性、可用性、安全性
 
-- [分散式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/分布式.md)
+- [分散式](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/分布式.md)
 
   分散式鎖、分散式事務、CAP、BASE、Paxos、Raft
 
-- [集群](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/集群.md)
+- [集群](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/集群.md)
 
   負載均衡、Session 管理
 
-- [攻擊技術](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/攻击技术.md)
+- [攻擊技術](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/攻击技术.md)
 
   XSS、CSRF、SQL 注入、DDoS
 
-- [快取](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/缓存.md)
+- [快取](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/缓存.md)
 
   快取特徵、快取位置、快取問題、數據分布、一致性哈希、LRU、CDN
 
-- [訊息佇列](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/消息队列.md)
+- [訊息佇列](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/消息队列.md)
 
   訊息處理模型、使用場景、可靠性
 
 ### :hammer: 工具
 
-- [Git](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Git.md)
+- [Git](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Git.md)
 
   一些 Git 的使用和概念。
 
-- [Docker](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Docker.md)
+- [Docker](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/Docker.md)
 
   Docker 基本原理。
 
-- [正規表達示](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/正则表达式.md)
+- [正規表達示](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/正则表达式.md)
 
   正規表達示基本語法。
 
-- [構建工具](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/构建工具.md)
+- [構建工具](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/构建工具.md)
 
   構記工具的基本觀念、主流建構工具介紹。
 
 ### :speak_no_evil: 編碼實踐
 
-- [重構](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/重构.md)
+- [重構](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/重构.md)
 
   參考 重構 改善既有代碼的設計。
 
-- [代碼可讀性](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/代码可读性.md)
+- [代碼可讀性](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/代码可读性.md)
 
   參考 編寫可讀代碼的藝術。
 
-- [編程風格規範](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/代码风格规范.md)
+- [編程風格規範](https://github.com/meliodaseren/InnterviewNotes/blob/master/notes/代码风格规范.md)
 
   Google 開源項目的代碼風格規範。
 
@@ -170,7 +170,7 @@
 
 #### BookList
 
-本倉庫參考的書目：[BOOKLIST](https://github.com/CyC2018/Interview-Notebook/blob/master/BOOKLIST.md)。
+本倉庫參考的書目：[BOOKLIST](https://github.com/meliodaseren/Interview-Notebook/blob/master/BOOKLIST.md)。
 
 #### How To Contribute
 
@@ -186,7 +186,7 @@
 
 筆記不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 GFM 不支持 `<center> ![]() </center>` 讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
 
-筆者將自己實現的文檔排版功能提取出來，放在 Github Page 中，無需下載安裝即可免費使用：[Text-Typesetting](https://github.com/CyC2018/Markdown-Typesetting)。
+筆者將自己實現的文檔排版功能提取出來，放在 Github Page 中，無需下載安裝即可免費使用：[Text-Typesetting](https://github.com/meliodaseren/Markdown-Typesetting)。
 
 #### Uploading
 
@@ -194,7 +194,7 @@
 
 進行 Markdown 文檔轉換是因為 Github 使用的 GFM 不支持 MathJax 公式和 TOC 標記，所以需要替換 MathJax 公式為 CodeCogs 的雲服務和重新生成 TOC 目錄。
 
-筆者將自己實現文檔轉換功能提取出來，方便大家在需要將本地 Markdown 上傳到 Github，或者制作項目 README 文檔時生成目錄時使用：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
+筆者將自己實現文檔轉換功能提取出來，方便大家在需要將本地 Markdown 上傳到 Github，或者制作項目 README 文檔時生成目錄時使用：[GFM-Converter](https://github.com/meliodaseren/GFM-Converter)。
 
 #### Logo
 
