@@ -7,7 +7,7 @@
 <div align="center">
     <img src="other/LogoMakr_0zpEzN.png" width="150px">
     <br>
-    <a href="other/Group.md"> <img src="https://img.shields.io/badge/>-group-4ab8a1.svg"></a> <a href="https://legacy.gitbook.com/book/meliodaseren/interview-notebook/details"> <img src="https://img.shields.io/badge/_-gitbook-4ab8a1.svg"></a> 
+    <a href="other/Group.md"> <img src="https://img.shields.io/badge/>-group-4ab8a1.svg"></a> <a href="https://legacy.gitbook.com/book/CyC2018/interview-notebook/details"> <img src="https://img.shields.io/badge/_-gitbook-4ab8a1.svg"></a> 
 </div>
 
 ### :pencil2: 演算法
@@ -170,7 +170,7 @@
 
 #### BookList
 
-本倉庫參考的書目：[BOOKLIST](https://github.com/meliodaseren/Interview-Notebook/blob/master/BOOKLIST.md)。
+本倉庫參考的書目：[BOOKLIST](https://github.com/meliodaseren/CS-Notes/blob/master/BOOKLIST.md)。
 
 #### How To Contribute
 
@@ -186,7 +186,7 @@
 
 筆記不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 GFM 不支持 `<center> ![]() </center>` 讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
 
-筆者將自己實現的文檔排版功能提取出來，放在 Github Page 中，無需下載安裝即可免費使用：[Text-Typesetting](https://github.com/meliodaseren/Markdown-Typesetting)。
+筆者將自己實現的文檔排版功能提取出來，放在 Github Page 中，無需下載安裝即可免費使用：[Text-Typesetting](https://github.com/CyC2018/Markdown-Typesetting)。
 
 #### Uploading
 
@@ -194,7 +194,7 @@
 
 進行 Markdown 文檔轉換是因為 Github 使用的 GFM 不支持 MathJax 公式和 TOC 標記，所以需要替換 MathJax 公式為 CodeCogs 的雲服務和重新生成 TOC 目錄。
 
-筆者將自己實現文檔轉換功能提取出來，方便大家在需要將本地 Markdown 上傳到 Github，或者制作項目 README 文檔時生成目錄時使用：[GFM-Converter](https://github.com/meliodaseren/GFM-Converter)。
+筆者將自己實現文檔轉換功能提取出來，方便大家在需要將本地 Markdown 上傳到 Github，或者制作項目 README 文檔時生成目錄時使用：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
 
 #### Logo
 
