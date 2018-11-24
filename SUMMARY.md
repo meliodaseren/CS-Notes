@@ -46,4 +46,3 @@ This file used to generate gitbook catalogue.
   * [代码风格规范](/notes/代码风格规范.md)
 * 参考书目
   * [BOOKLIST](/BOOKLIST.md)
-
