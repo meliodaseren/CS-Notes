@@ -5,8 +5,8 @@
 * [4. 二維數組中的查找](#4-二維數組中的查找)
 * [5. 替換空格](#5-替換空格)
 * [6. 從尾到頭打印鏈表](#6-從尾到頭打印鏈表)
-* [7. 重建二元樹](#7-重建二叉樹)
-* [8. 二元樹的下一個節點](#8-二叉樹的下一個結點)
+* [7. 重建二元樹](#7-重建二元樹)
+* [8. 二元樹的下一個節點](#8-二元樹的下一個結點)
 * [9. 用兩個棧實現隊列](#9-用兩個棧實現隊列)
 * [10.1 斐波那契數列](#101-斐波那契數列)
 * [10.2 跳台階](#102-跳台階)
@@ -29,19 +29,19 @@
 * [24. 反轉鏈表](#24-反轉鏈表)
 * [25. 合並兩個排序的鏈表](#25-合並兩個排序的鏈表)
 * [26. 樹的子結構](#26-樹的子結構)
-* [27. 二叉樹的鏡像](#27-二叉樹的鏡像)
-* [28 對稱的二叉樹](#28-對稱的二叉樹)
+* [27. 二元樹的鏡像](#27-二元樹的鏡像)
+* [28 對稱的二元樹](#28-對稱的二元樹)
 * [29. 順時針打印矩陣](#29-順時針打印矩陣)
 * [30. 包含 min 函數的棧](#30-包含-min-函數的棧)
 * [31. 棧的壓入、彈出序列](#31-棧的壓入彈出序列)
-* [32.1 從上往下打印二叉樹](#321-從上往下打印二叉樹)
-* [32.2 把二叉樹打印成多行](#322-把二叉樹打印成多行)
-* [32.3 按之字形順序打印二叉樹](#323-按之字形順序打印二叉樹)
+* [32.1 從上往下打印二元樹](#321-從上往下打印二元樹)
+* [32.2 把二元樹打印成多行](#322-把二元樹打印成多行)
+* [32.3 按之字形順序打印二元樹](#323-按之字形順序打印二元樹)
 * [33. 二叉搜索樹的後序遍歷序列](#33-二叉搜索樹的後序遍歷序列)
-* [34. 二叉樹中和為某一值的路徑](#34-二叉樹中和為某一值的路徑)
+* [34. 二元樹中和為某一值的路徑](#34-二元樹中和為某一值的路徑)
 * [35. 復雜鏈表的復制](#35-復雜鏈表的復制)
 * [36. 二叉搜索樹與雙向鏈表](#36-二叉搜索樹與雙向鏈表)
-* [37. 序列化二叉樹](#37-序列化二叉樹)
+* [37. 序列化二元樹](#37-序列化二元樹)
 * [38. 字符串的排列](#38-字符串的排列)
 * [39. 數組中出現次數超過一半的數字](#39-數組中出現次數超過一半的數字)
 * [40. 最小的 K 個數](#40-最小的-k-個數)
@@ -60,8 +60,8 @@
 * [52. 兩個鏈表的第一個公共結點](#52-兩個鏈表的第一個公共結點)
 * [53. 數字在排序數組中出現的次數](#53-數字在排序數組中出現的次數)
 * [54. 二叉查找樹的第 K 個結點](#54-二叉查找樹的第-k-個結點)
-* [55.1 二叉樹的深度](#551-二叉樹的深度)
-* [55.2 平衡二叉樹](#552-平衡二叉樹)
+* [55.1 二樹的深度](#551-二元樹的深度)
+* [55.2 平衡二元樹](#552-平衡二元樹)
 * [56. 數組中只出現一次的數字](#56-數組中只出現一次的數字)
 * [57.1 和為 S 的兩個數字](#571-和為-s-的兩個數字)
 * [57.2 和為 S 的連續正數序列](#572-和為-s-的連續正數序列)
@@ -334,13 +334,13 @@ public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
 }
 ```
 
-# 7. 重建二叉樹
+# 7. 重建二元樹
 
 [NowCoder](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-根據二叉樹的前序遍歷和中序遍歷的結果，重建出該二叉樹。假設輸入的前序遍歷和中序遍歷的結果中都不含重復的數字。
+根據二元樹的前序遍歷和中序遍歷的結果，重建出該二元樹。假設輸入的前序遍歷和中序遍歷的結果中都不含重復的數字。
 
 ```html
 preorder = [3,9,20,15,7]
@@ -375,13 +375,13 @@ private TreeNode reConstructBinaryTree(int[] pre, int preL, int preR, int inL) {
 }
 ```
 
-# 8. 二叉樹的下一個結點
+# 8. 二元樹的下一個結點
 
 [NowCoder](https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e?tpId=13&tqId=11210&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-給定一個二叉樹和其中的一個結點，請找出中序遍歷順序的下一個結點並且返回。注意，樹中的結點不僅包含左右子結點，同時包含指向父結點的指針。
+給定一個二元樹和其中的一個結點，請找出中序遍歷順序的下一個結點並且返回。注意，樹中的結點不僅包含左右子結點，同時包含指向父結點的指針。
 
 ```java
 public class TreeLinkNode {
@@ -1293,7 +1293,7 @@ private boolean isSubtreeWithRoot(TreeNode root1, TreeNode root2) {
 }
 ```
 
-# 27. 二叉樹的鏡像
+# 27. 二元樹的鏡像
 
 [NowCoder](https://www.nowcoder.com/practice/564f4c26aa584921bc75623e48ca3011?tpId=13&tqId=11171&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
@@ -1319,7 +1319,7 @@ private void swap(TreeNode root) {
 }
 ```
 
-# 28 對稱的二叉樹
+# 28 對稱的二元樹
 
 [NowCder](https://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb?tpId=13&tqId=11211&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
@@ -1443,15 +1443,15 @@ public boolean IsPopOrder(int[] pushSequence, int[] popSequence) {
 }
 ```
 
-# 32.1 從上往下打印二叉樹
+# 32.1 從上往下打印二元樹
 
 [NowCoder](https://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701?tpId=13&tqId=11175&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-從上往下打印出二叉樹的每個節點，同層節點從左至右打印。
+從上往下打印出二元樹的每個節點，同層節點從左至右打印。
 
-例如，以下二叉樹層次遍歷的結果為：1,2,3,4,5,6,7
+例如，以下二元樹層次遍歷的結果為：1,2,3,4,5,6,7
 
 <div align="center"> <img src="../pics//348bc2db-582e-4aca-9f88-38c40e9a0e69.png" width="250"/> </div><br>
 
@@ -1481,7 +1481,7 @@ public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
 }
 ```
 
-# 32.2 把二叉樹打印成多行
+# 32.2 把二元樹打印成多行
 
 [NowCoder](https://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288?tpId=13&tqId=11213&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
@@ -1514,13 +1514,13 @@ ArrayList<ArrayList<Integer>> Print(TreeNode pRoot) {
 }
 ```
 
-# 32.3 按之字形順序打印二叉樹
+# 32.3 按之字形順序打印二元樹
 
 [NowCoder](https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-請實現一個函數按照之字形打印二叉樹，即第一行按照從左到右的順序打印，第二層按照從右至左的順序打印，第三行按照從左到右的順序打印，其他行以此類推。
+請實現一個函數按照之字形打印二元樹，即第一行按照從左到右的順序打印，第二層按照從右至左的順序打印，第三行按照從左到右的順序打印，其他行以此類推。
 
 ## 解題思路
 
@@ -1586,15 +1586,15 @@ private boolean verify(int[] sequence, int first, int last) {
 }
 ```
 
-# 34. 二叉樹中和為某一值的路徑
+# 34. 二元樹中和為某一值的路徑
 
 [NowCoder](https://www.nowcoder.com/practice/b736e784e3e34731af99065031301bca?tpId=13&tqId=11177&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-輸入一顆二叉樹和一個整數，打印出二叉樹中結點值的和為輸入整數的所有路徑。路徑定義為從樹的根結點開始往下一直到葉結點所經過的結點形成一條路徑。
+輸入一顆二元樹和一個整數，打印出二元樹中結點值的和為輸入整數的所有路徑。路徑定義為從樹的根結點開始往下一直到葉結點所經過的結點形成一條路徑。
 
-下圖的二叉樹有兩條和為 22 的路徑：10, 5, 7 和 10, 12
+下圖的二元樹有兩條和為 22 的路徑：10, 5, 7 和 10, 12
 
 <div align="center"> <img src="../pics//f5477abd-c246-4851-89ab-6b1cde2549b1.png" width="200"/> </div><br>
 
@@ -1726,13 +1726,13 @@ private void inOrder(TreeNode node) {
 }
 ```
 
-# 37. 序列化二叉樹
+# 37. 序列化二元樹
 
 [NowCoder](https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84?tpId=13&tqId=11214&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-請實現兩個函數，分別用來序列化和反序列化二叉樹。
+請實現兩個函數，分別用來序列化和反序列化二元樹。
 
 ## 解題思路
 
@@ -2423,7 +2423,7 @@ private void inOrder(TreeNode root, int k) {
 }
 ```
 
-# 55.1 二叉樹的深度
+# 55.1 二元樹的深度
 
 [NowCoder](https://www.nowcoder.com/practice/435fb86331474282a3499955f0a41e8b?tpId=13&tqId=11191&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
@@ -2441,13 +2441,13 @@ public int TreeDepth(TreeNode root) {
 }
 ```
 
-# 55.2 平衡二叉樹
+# 55.2 平衡二元樹
 
 [NowCoder](https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222?tpId=13&tqId=11192&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-平衡二叉樹左右子樹高度差不超過 1。
+平衡二元樹左右子樹高度差不超過 1。
 
 <div align="center"> <img src="../pics//e026c24d-00fa-4e7c-97a8-95a98cdc383a.png" width="300"/> </div><br>
 
@@ -2979,7 +2979,7 @@ public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 }
 ```
 
-### 普通二叉樹
+### 普通二元樹
 
 <div align="center"> <img src="../pics//37a72755-4890-4b42-9eab-b0084e0c54d9.png" width="300"/> </div><br>
 
