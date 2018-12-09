@@ -37,10 +37,10 @@
 * [32.1 從上往下打印二元樹](#321-從上往下打印二元樹)
 * [32.2 把二元樹打印成多行](#322-把二元樹打印成多行)
 * [32.3 按之字形順序打印二元樹](#323-按之字形順序打印二元樹)
-* [33. 二叉搜索樹的後序遍歷序列](#33-二叉搜索樹的後序遍歷序列)
+* [33. 二元搜索樹的後序遍歷序列](#33-二元搜索樹的後序遍歷序列)
 * [34. 二元樹中和為某一值的路徑](#34-二元樹中和為某一值的路徑)
 * [35. 復雜鏈表的復制](#35-復雜鏈表的復制)
-* [36. 二叉搜索樹與雙向鏈表](#36-二叉搜索樹與雙向鏈表)
+* [36. 二元搜索樹與雙向鏈表](#36-二元搜索樹與雙向鏈表)
 * [37. 序列化二元樹](#37-序列化二元樹)
 * [38. 字符串的排列](#38-字符串的排列)
 * [39. 數組中出現次數超過一半的數字](#39-數組中出現次數超過一半的數字)
@@ -59,7 +59,7 @@
 * [51. 數組中的逆序對](#51-數組中的逆序對)
 * [52. 兩個鏈表的第一個公共結點](#52-兩個鏈表的第一個公共結點)
 * [53. 數字在排序數組中出現的次數](#53-數字在排序數組中出現的次數)
-* [54. 二叉查找樹的第 K 個結點](#54-二叉查找樹的第-k-個結點)
+* [54. 二元查找樹的第 K 個結點](#54-二元查找樹的第-k-個結點)
 * [55.1 二樹的深度](#551-二元樹的深度)
 * [55.2 平衡二元樹](#552-平衡二元樹)
 * [56. 數組中只出現一次的數字](#56-數組中只出現一次的數字)
@@ -1551,15 +1551,15 @@ public ArrayList<ArrayList<Integer>> Print(TreeNode pRoot) {
 }
 ```
 
-# 33. 二叉搜索樹的後序遍歷序列
+# 33. 二元搜索樹的後序遍歷序列
 
 [NowCoder](https://www.nowcoder.com/practice/a861533d45854474ac791d90e447bafd?tpId=13&tqId=11176&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-輸入一個整數數組，判斷該數組是不是某二叉搜索樹的後序遍歷的結果。假設輸入的數組的任意兩個數字都互不相同。
+輸入一個整數數組，判斷該數組是不是某二元搜索樹的後序遍歷的結果。假設輸入的數組的任意兩個數字都互不相同。
 
-例如，下圖是後序遍歷序列 1,3,2 所對應的二叉搜索樹。
+例如，下圖是後序遍歷序列 1,3,2 所對應的二元搜索樹。
 
 <div align="center"> <img src="../pics//836a4eaf-4798-4e48-b52a-a3dab9435ace.png" width="150"/> </div><br>
 
@@ -1691,13 +1691,13 @@ public RandomListNode Clone(RandomListNode pHead) {
 }
 ```
 
-# 36. 二叉搜索樹與雙向鏈表
+# 36. 二元搜索樹與雙向鏈表
 
 [NowCoder](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 題目描述
 
-輸入一棵二叉搜索樹，將該二叉搜索樹轉換成一個排序的雙向鏈表。要求不能創建任何新的結點，只能調整樹中結點指針的指向。
+輸入一棵二元搜索樹，將該二元搜索樹轉換成一個排序的雙向鏈表。要求不能創建任何新的結點，只能調整樹中結點指針的指向。
 
 <div align="center"> <img src="../pics//79b12431-6d9d-4a7d-985b-1b79bc5bf5fb.png" width="400"/> </div><br>
 
@@ -2395,13 +2395,13 @@ private int binarySearch(int[] nums, int K) {
 }
 ```
 
-# 54. 二叉查找樹的第 K 個結點
+# 54. 二元查找樹的第 K 個結點
 
 [NowCoder](https://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a?tpId=13&tqId=11215&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 解題思路
 
-利用二叉查找樹中序遍歷有序的特點。
+利用二元查找樹中序遍歷有序的特點。
 
 ```java
 private TreeNode ret;
@@ -2959,13 +2959,13 @@ public int StrToInt(String str) {
 
 ## 解題思路
 
-### 二叉查找樹
+### 二元查找樹
 
 <div align="center"> <img src="../pics//293d2af9-de1d-403e-bed0-85d029383528.png" width="300"/> </div><br>
 
 [Leetcode : 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
 
-二叉查找樹中，兩個節點 p, q 的公共祖先 root 滿足 root.val >= p.val && root.val <= q.val。
+二元查找樹中，兩個節點 p, q 的公共祖先 root 滿足 root.val >= p.val && root.val <= q.val。
 
 ```java
 public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
