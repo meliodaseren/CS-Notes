@@ -6,7 +6,7 @@ https://cyc2018.github.io/CS-Notes
 
 <!--| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| 算法[:pencil2:](#pencil2-算法) | 操作系統[:computer:](#computer-操作系統)|網絡[:cloud:](#cloud-網絡) | 面向對象[:art:](#art-面向對象) |數據庫[:floppy_disk:](#floppy_disk-數據庫)| Java [:coffee:](#coffee-java)| 系統設計[:bulb:](#bulb-系統設計)| 工具[:wrench:](#wrench-工具)| 編碼實踐[:watermelon:](#watermelon-編碼實踐)| 後記[:memo:](#memo-後記) | -->
+| 算法[:pencil2:](#pencil2-算法) | 作業系統[:computer:](#computer-操作系統)|網絡[:cloud:](#cloud-網絡) | 物件導向[:art:](#art-面向對象) |資料庫[:floppy_disk:](#floppy_disk-數據庫)| Java [:coffee:](#coffee-java)| 系統設計[:bulb:](#bulb-系統設計)| 工具[:wrench:](#wrench-工具)| 編碼實踐[:watermelon:](#watermelon-編碼實踐)| 後記[:memo:](#memo-後記) | -->
 
 | &nbsp;&nbsp;&nbsp;算法&nbsp;&nbsp;&nbsp; | 操作系統 | &nbsp;&nbsp;&nbsp;網絡&nbsp;&nbsp;&nbsp; | 面向對象 | &nbsp;&nbsp;數據庫&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp; | 系統設計 | &nbsp;&nbsp;&nbsp;工具&nbsp;&nbsp;&nbsp; | 編碼實踐 | &nbsp;&nbsp;&nbsp;後記&nbsp;&nbsp;&nbsp; |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
@@ -31,7 +31,7 @@ https://cyc2018.github.io/CS-Notes
 - [Leetcode 題解](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/Leetcode%20题解.md)
 - [算法](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/算法.md)
 
-## :computer: 操作系統
+## :computer: 作業系統
 
 - [計算機操作系統](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/计算机操作系统.md)
 - [Linux](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/Linux.md)
@@ -42,12 +42,12 @@ https://cyc2018.github.io/CS-Notes
 - [HTTP](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/HTTP.md)
 - [Socket](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/Socket.md)
 
-## :art: 面向對象
+## :art: 物件導向
 
 - [設計模式](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/设计模式.md)
 - [面向對象思想](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/面向对象思想.md)
 
-## :floppy_disk: 數據庫 
+## :floppy_disk: 資料庫
 
 - [數據庫系統原理](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/数据库系统原理.md)
 - [SQL](https://github.com/meliodaseren/CS-Notes/blob/master/docs/notes/SQL.md)
@@ -165,7 +165,7 @@ Power by [logomakr](https://logomakr.com/).
 
 <!--  | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| 算法[:pencil2:](#pencil2-算法) | 操作系統[:computer:](#computer-操作系統)|網絡[:cloud:](#cloud-網絡) | 面向對象[:couple:](#couple-面向對象) |數據庫[:floppy_disk:](#floppy_disk-數據庫)| Java [:coffee:](#coffee-java)| 系統設計[:bulb:](#bulb-系統設計)| 工具[:hammer:](#hammer-工具)| 編碼實踐[:speak_no_evil:](#speak_no_evil-編碼實踐)| 後記[:memo:](#memo-後記) | -->
+| 算法[:pencil2:](#pencil2-算法) | 作業系統[:computer:](#computer-操作系統)|網絡[:cloud:](#cloud-網絡) | 物件導向[:couple:](#couple-面向對象) |資料庫[:floppy_disk:](#floppy_disk-數據庫)| Java [:coffee:](#coffee-java)| 系統設計[:bulb:](#bulb-系統設計)| 工具[:hammer:](#hammer-工具)| 編碼實踐[:speak_no_evil:](#speak_no_evil-編碼實踐)| 後記[:memo:](#memo-後記) | -->
 
 <!-- | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ |
 | :--------: | :---------: | :---------: | :---------: | :---------: |
