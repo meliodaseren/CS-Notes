@@ -4,25 +4,18 @@ https://cyc2018.github.io/CS-Notes
 
 ---
 
-<!--| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| 算法[:pencil2:](#pencil2-算法) | 作業系統[:computer:](#computer-操作系統)|網絡[:cloud:](#cloud-網絡) | 物件導向[:art:](#art-面向對象) |資料庫[:floppy_disk:](#floppy_disk-數據庫)| Java [:coffee:](#coffee-java)| 系統設計[:bulb:](#bulb-系統設計)| 工具[:wrench:](#wrench-工具)| 編碼實踐[:watermelon:](#watermelon-編碼實踐)| 後記[:memo:](#memo-後記) | -->
-
 | &nbsp;&nbsp;&nbsp;算法&nbsp;&nbsp;&nbsp; | 作業系統 | &nbsp;&nbsp;&nbsp;網絡&nbsp;&nbsp;&nbsp; | 物件導向 | &nbsp;&nbsp;資料庫&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp; | 系統設計 | &nbsp;&nbsp;&nbsp;工具&nbsp;&nbsp;&nbsp; | 編碼實踐 | &nbsp;&nbsp;&nbsp;後記&nbsp;&nbsp;&nbsp; |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
 | [:pencil2:](#pencil2-算法) | [:computer:](#computer-操作系統)|[:cloud:](#cloud-網絡) | [:art:](#art-面向對象) |[:floppy_disk:](#floppy_disk-數據庫)|  [:coffee:](#coffee-java)| [:bulb:](#bulb-系統設計)| [:wrench:](#wrench-工具)| [:watermelon:](#watermelon-編碼實踐)| [:memo:](#memo-後記) |
 
 <br>
-
 <div align="center">
     <img src="other/LogoMakr_0zpEzN.png" width="200px">
     <br>
-    <a href="https://cyc2018.github.io/CS-Notes"> <img src="https://img.shields.io/badge/>-read-4ab8a1.svg"></a>  <a href="https://xiaozhuanlan.com/CyC2018"> <img src="https://img.shields.io/badge/_-more-4ab8a1.svg"></a> 
+    <a href="https://cyc2018.github.io/CS-Notes"> <img src="https://img.shields.io/badge/>-read-4ab8a1.svg"></a>  <a href="https://xiaozhuanlan.com/CyC2018"> <img src="https://img.shields.io/badge/_-more-4ab8a1.svg"></a>
     <br> <br>
     本項目包含了技術面試必備的基礎知識，淺顯易懂，你不需要花很長的時間去閱讀和理解成堆的技術書籍就可以快速掌握這些知識，從而節省寶貴的面試覆習時間。你也可以訂閱 <a href="https://xiaozhuanlan.com/CyC2018">面試進階專欄</a>，包含了學習指導和面試技巧，讓你更輕鬆拿到滿意的 Offer。
-</div> 
-
-
+</div>
 <br>
 
 ## :pencil2: 算法
@@ -124,7 +117,6 @@ https://cyc2018.github.io/CS-Notes
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知識共享許可協議" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-
 ### Logo
 
 Power by [logomakr](https://logomakr.com/).
@@ -160,20 +152,3 @@ Power by [logomakr](https://logomakr.com/).
 <a href="https://github.com/yanglbme">
 ​    <img src="https://avatars1.githubusercontent.com/u/21008209?s=400&v=4" width="50px">
 </a>
-
-
-
-<!--  | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| 算法[:pencil2:](#pencil2-算法) | 作業系統[:computer:](#computer-操作系統)|網絡[:cloud:](#cloud-網絡) | 物件導向[:couple:](#couple-面向對象) |資料庫[:floppy_disk:](#floppy_disk-數據庫)| Java [:coffee:](#coffee-java)| 系統設計[:bulb:](#bulb-系統設計)| 工具[:hammer:](#hammer-工具)| 編碼實踐[:speak_no_evil:](#speak_no_evil-編碼實踐)| 後記[:memo:](#memo-後記) | -->
-
-<!-- | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ |
-| :--------: | :---------: | :---------: | :---------: | :---------: |
-| &emsp;&emsp;&emsp;算法&emsp;&emsp;&emsp;<br>[:pencil2:](#pencil2-算法) | &emsp;&emsp;&emsp;操作系統&emsp;&emsp;&emsp;<br>[:computer:](#computer-操作系統) | &emsp;&emsp;&emsp;&emsp;網絡&emsp;&emsp;&emsp;&emsp;<br>[:cloud:](#cloud-網絡) | &emsp;&emsp;&emsp;面向對象&emsp;&emsp;&emsp;<br>[:couple:](#couple-面向對象) | &emsp;&emsp;&emsp;數據庫&emsp;&emsp;<br>[:floppy_disk:](#floppy_disk-數據庫)|
-
-| Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
-|:---------:| :---------: | :-------: | :-------:| :------:|
-| &emsp;&emsp;&emsp;Java&emsp;&emsp;&emsp;<br>[:coffee:](#coffee-java) | &emsp;&emsp;&emsp;系統設計&emsp;&emsp;&emsp;<br>[:bulb:](#bulb-系統設計) | &emsp;&emsp;&emsp;&emsp;工具&emsp;&emsp;&emsp;&emsp;<br>[:hammer:](#hammer-工具) | &emsp;&emsp;&emsp;編碼實踐&emsp;&emsp;&emsp;<br>[:speak_no_evil:](#speak_no_evil-編碼實踐) | &emsp;&emsp;&emsp;後記 &emsp;&emsp;&emsp;<br>[:memo:](#memo-後記) |
--->
-
-<br>
