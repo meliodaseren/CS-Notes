@@ -6,7 +6,7 @@ https://cyc2018.github.io/CS-Notes
 
 | &nbsp;&nbsp;&nbsp;算法&nbsp;&nbsp;&nbsp; | 作業系統 | &nbsp;&nbsp;&nbsp;網絡&nbsp;&nbsp;&nbsp; | 物件導向 | &nbsp;&nbsp;資料庫&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp; | 系統設計 | &nbsp;&nbsp;&nbsp;工具&nbsp;&nbsp;&nbsp; | 編碼實踐 | &nbsp;&nbsp;&nbsp;後記&nbsp;&nbsp;&nbsp; |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| [:pencil2:](#pencil2-算法) | [:computer:](#computer-操作系統)|[:cloud:](#cloud-網絡) | [:art:](#art-面向對象) |[:floppy_disk:](#floppy_disk-數據庫)|  [:coffee:](#coffee-java)| [:bulb:](#bulb-系統設計)| [:wrench:](#wrench-工具)| [:watermelon:](#watermelon-編碼實踐)| [:memo:](#memo-後記) |
+| [:pencil2:](#pencil2-算法) | [:computer:](#computer-作業系統)|[:cloud:](#cloud-網絡) | [:art:](#art-物件導向) |[:floppy_disk:](#floppy_disk-資料庫)|  [:coffee:](#coffee-java)| [:bulb:](#bulb-系統設計)| [:wrench:](#wrench-工具)| [:watermelon:](#watermelon-編碼實踐)| [:memo:](#memo-後記) |
 
 <br>
 <div align="center">
