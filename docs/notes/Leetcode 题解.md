@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-[🍉 点击订阅面试进阶专栏 ](https://xiaozhuanlan.com/CyC2018)
-=======
 * [点击阅读面试进阶指南 ](https://github.com/CyC2018/Backend-Interview-Guide)
->>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 <!-- GFM-TOC -->
 * [算法思想](#算法思想)
     * [双指针](#双指针)
@@ -71,11 +67,7 @@
 ```html
 Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
-<<<<<<< HEAD
-```
-=======
 ```3
->>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 题目描述：在有序数组中找出两个数，使它们的和为 target。
 
@@ -411,15 +403,10 @@ public List<Integer> topKFrequent(int[] nums, int k) {
     }
     List<Integer> topK = new ArrayList<>();
     for (int i = buckets.length - 1; i >= 0 && topK.size() < k; i--) {
-<<<<<<< HEAD
-        if (buckets[i] != null) {
-            topK.addAll(buckets[i]);
-=======
         if (buckets[i].size() <= (k - topK.size())) {
             topK.addAll(buckets[i]);
         } else {
             topK.addAll(buckets[i].subList(0, k - topK.size()));
->>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
         }
     }
     return topK;
@@ -2331,11 +2318,7 @@ public void solveSudoku(char[][] board) {
             colsUsed[j][num] = true;
             cubesUsed[cubeNum(i, j)][num] = true;
         }
-<<<<<<< HEAD
-        backtracking(i, 0);
-=======
         backtracking(0, 0);
->>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 }
 
 private boolean backtracking(int row, int col) {

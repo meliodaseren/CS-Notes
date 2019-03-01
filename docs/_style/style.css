@@ -48,8 +48,6 @@ section.cover h1 {
 
 body>section>div.cover-main>ul>li>a {
     color: #42b983;
-<<<<<<< HEAD
-=======
 }
 
 .markdown-section img {
@@ -80,5 +78,4 @@ pre {
     padding-left: 0 !important;
     padding-right: 0px !important;
     box-shadow: 2px 1px 20px 2px #aaa;
->>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 }
