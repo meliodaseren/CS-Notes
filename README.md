@@ -1,7 +1,8 @@
 **本項目並未即時更新，想保持最新的版本請參考項目原網址：**
 https://cyc2018.github.io/CS-Notes
 
-**最後更新時間：2019/3/1 22:40**
+**最後更新時間：**
+2019/3/1 22:40
 
 ---
 
@@ -104,36 +105,21 @@ https://cyc2018.github.io/CS-Notes
 
 ### 排版
 
-筆記內容按照 [文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 進行排版，以保證內容的可讀性。筆記不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 GFM 不支持 `<center> ![]() </center>` 讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
+筆記內容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 進行排版，以保證內容的可讀性。
+
+筆記不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 GFM 不支持 `<center> ![]() </center>` 讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
 
 我將自己實現的文檔排版功能提取出來，放在 Github Page 中，無需下載安裝即可免費使用：[Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)。
 
-```
-笔记内容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 进行排版，以保证内容的可读性。
-
-不使用 `![]()` 这种方式来引用图片，而是用 `<img>` 标签。一方面是为了能够控制图片以合适的大小显示，另一方面是因为 GFM 不支持 `<center> ![]() </center>` 让图片居中显示，只能使用 `<div align="center"> <img src=""/> </div>` 达到居中的效果。
-
-我将自己实现的文档排版功能放在 Github Page 中，无需下载安装即可免费使用：[Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)。
-```
-
 ### 上傳方案
 
-我在本地使用為知筆記軟件進行書寫，為了方便將本地筆記內容上傳到 Github 上，實現了一整套自動化上傳方案，包括文本文件的導出、提取圖片、Markdown 文檔轉換、Git 同步。進行 Markdown 文檔轉換是因為 Github 使用的 GFM 不支持 MathJax 公式和 TOC 標記，所以需要替換 MathJax 公式為 CodeCogs 的雲服務和重新生成 TOC 目錄。
-
-```
-我在本地使用为知笔记软件进行书写，为了方便将本地笔记内容上传到 Github 上，实现了一整套自动化上传方案，包括提取图片、Markdown 文档转换、Git 同步。进行 Markdown 文档转换是因为 Github 使用的 GFM 不支持 MathJax 公式和 TOC 标记，所以需要替换 MathJax 公式为 CodeCogs 的云服务和重新生成 TOC 目录。
-```
+我在本地使用為知筆記軟件進行書寫，為了方便將本地筆記內容上傳到 Github 上，實現了一整套自動化上傳方案，包括提取圖片、Markdown 文檔轉換、Git 同步。進行 Markdown 文檔轉換是因為 Github 使用的 GFM 不支持 MathJax 公式和 TOC 標記，所以需要替換 MathJax 公式為 CodeCogs 的雲服務和重新生成 TOC 目錄。
 
 我將自己實現文檔轉換功能提取出來，方便大家在需要將本地 Markdown 上傳到 Github，或者制作項目 README 文檔時生成目錄時使用：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
 
 ### License
 
 學習筆記不是從網上到處拼湊而來，除了少部分引用書上和技術文檔的原文，其余都是筆者的原創。在您引用本倉庫內容或者對內容進行修改演繹時，請署名並以相同方式共享，謝謝。
-
-```
-学习笔记不是从网上到处拼凑而来，除了少部分引用书上和技术文档的原文，其余都是我的原创。在您引用本仓库内容或
-者对内容进行修改演绎时，请署名并以相同方式共享，谢谢。
-```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知識共享許可協議" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
