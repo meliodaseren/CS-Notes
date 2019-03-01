@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [🍉 点击订阅面试进阶专栏 ](https://xiaozhuanlan.com/CyC2018)
+=======
+* [点击阅读面试进阶指南 ](https://github.com/CyC2018/Backend-Interview-Guide)
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 <!-- GFM-TOC -->
 * [595. Big Countries](#595-big-countries)
 * [627. Swap Salary](#627-swap-salary)
@@ -497,7 +501,11 @@ https://leetcode.com/problems/customers-who-never-order/description/
 
 ## Description
 
+<<<<<<< HEAD
 Curstomers 表：
+=======
+Customers 表：
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 ```html
 +----+-------+

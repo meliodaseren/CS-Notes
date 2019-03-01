@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [🍉 点击订阅面试进阶专栏 ](https://xiaozhuanlan.com/CyC2018)
+=======
+* [点击阅读面试进阶指南 ](https://github.com/CyC2018/Backend-Interview-Guide)
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 <!-- GFM-TOC -->
 * [一、概览](#一概览)
     * [Collection](#collection)
@@ -15,7 +19,10 @@
     * [ConcurrentHashMap](#concurrenthashmap)
     * [LinkedHashMap](#linkedhashmap)
     * [WeakHashMap](#weakhashmap)
+<<<<<<< HEAD
 * [附录](#附录)
+=======
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 * [参考资料](#参考资料)
 <!-- GFM-TOC -->
 
@@ -26,7 +33,12 @@
 
 ## Collection
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/VP6n3i8W48Ptde8NQ9_0eSR5eOD6uqx.png"/> </div><br>
+=======
+<div align="center"> <img src="pics/6_2001550476096035.png"/> </div><br>
+
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 ### 1. Set
 
@@ -52,7 +64,11 @@
 
 ## Map
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/SoWkIImgAStDuUBAp2j9BKfBJ4vLy4q.png"/> </div><br>
+=======
+<div align="center"> <img src="pics/2_2001550426232419.png"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 - TreeMap：基于红黑树实现。
 
@@ -67,7 +83,11 @@
 
 ## 迭代器模式
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/SoWkIImgAStDuUBAp2j9BKfBJ4vLy0G.png"/> </div><br>
+=======
+<div align="center"> <img src="pics/91aa7c29-438f-4fcc-8c63-2a75899139de.png"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 Collection 继承了 Iterable 接口，其中的 iterator() 方法能够产生一个 Iterator 对象，通过这个对象就可以迭代遍历 Collection 中的元素。
 
@@ -112,6 +132,10 @@ List list = Arrays.asList(1, 2, 3);
 
 ## ArrayList
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 ### 1. 概览
 
 实现了 RandomAccess 接口，因此支持随机访问。这是理所当然的，因为 ArrayList 是基于数组实现的。
@@ -127,6 +151,12 @@ public class ArrayList<E> extends AbstractList<E>
 private static final int DEFAULT_CAPACITY = 10;
 ```
 
+<<<<<<< HEAD
+=======
+<div align="center"> <img src="pics/7935be3d-c2b3-4213-90c9-1e68ec4ac4e7.png"/> </div><br>
+
+
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 ### 2. 扩容
 
 添加元素时使用 ensureCapacityInternal() 方法来保证容量足够，如果不够时，需要使用 grow() 方法进行扩容，新容量的大小为 `oldCapacity + (oldCapacity >> 1)`，也就是旧容量的 1.5 倍。
@@ -388,7 +418,11 @@ transient Node<E> first;
 transient Node<E> last;
 ```
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/49495c95-52e5-4c9a-b27b-92cf235ff5ec.png" width="500"/> </div><br>
+=======
+<div align="center"> <img src="pics/09184175-9bf2-40ff-8a68-3b467c77216a.png"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 ### 2. 与 ArrayList 的比较
 
@@ -410,7 +444,11 @@ transient Entry[] table;
 
 Entry 存储着键值对。它包含了四个字段，从 next 字段我们可以看出 Entry 是一个链表。即数组中的每个位置被当成一个桶，一个桶存放一个链表。HashMap 使用拉链法来解决冲突，同一个链表中存放哈希值相同的 Entry。
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/8fe838e3-ef77-4f63-bf45-417b6bc5c6bb.png" width="600"/> </div><br>
+=======
+<div align="center"> <img src="pics/1d2719d5-8d60-4c9b-a4ad-b2df7c7615af.jpg"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 ```java
 static class Entry<K,V> implements Map.Entry<K,V> {
@@ -486,7 +524,11 @@ map.put("K3", "V3");
 - 计算键值对所在的桶；
 - 在链表上顺序查找，时间复杂度显然和链表的长度成正比。
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/49d6de7b-0d0d-425c-9e49-a1559dc23b10.png" width="600"/> </div><br>
+=======
+<div align="center"> <img src="pics/cf779e26-0382-4495-8463-f1e19e2e38a0.jpg"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 ### 3. put 操作
 
@@ -822,7 +864,11 @@ final Segment<K,V>[] segments;
 static final int DEFAULT_CONCURRENCY_LEVEL = 16;
 ```
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/3fdfc89d-719e-4d93-b518-29fa612b3b18.png"/> </div><br>
+=======
+<div align="center"> <img src="pics/deb18bdb-b3b3-4660-b778-b0823a48db12.jpg"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 ### 2. size 操作
 
@@ -1093,6 +1139,7 @@ public final class ConcurrentCache<K, V> {
 }
 ```
 
+<<<<<<< HEAD
 # 附录
 
 Collection 绘图源码：
@@ -1177,6 +1224,8 @@ ListIterator <-- List
 
 @enduml
 ```
+=======
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 # 参考资料
 

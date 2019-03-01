@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [🍉 点击订阅面试进阶专栏 ](https://xiaozhuanlan.com/CyC2018)
+=======
+* [点击阅读面试进阶指南 ](https://github.com/CyC2018/Backend-Interview-Guide)
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 <!-- GFM-TOC -->
 * [一、概览](#一概览)
 * [二、磁盘操作](#二磁盘操作)
@@ -98,7 +102,11 @@ Java I/O 使用了装饰者模式来实现。以 InputStream 为例，
 - FileInputStream 是 InputStream 的子类，属于具体组件，提供了字节流的输入操作；
 - FilterInputStream 属于抽象装饰者，装饰者用于装饰组件，为组件提供额外的功能。例如 BufferedInputStream 为 FileInputStream 提供缓存的功能。
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/DP-Decorator-java.io.png" width="500"/> </div><br>
+=======
+<div align="center"> <img src="pics/c2c2b633-c03a-426e-b436-5719a194667b.png"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 实例化一个具有缓存功能的字节流对象时，只需要在 FileInputStream 对象上再套一层 BufferedInputStream 对象即可。
 
@@ -278,7 +286,11 @@ public static void main(String[] args) throws IOException {
 - Socket：客户端类
 - 服务器和客户端通过 InputStream 和 OutputStream 进行输入输出。
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/ClienteServidorSockets1521731145260.jpg"/> </div><br>
+=======
+<div align="center"> <img src="pics/f77f06b6-7359-4066-b85d-3f6c09ddf425.jpg"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 ## Datagram
 
@@ -414,7 +426,11 @@ NIO 实现了 IO 多路复用中的 Reactor 模型，一个线程 Thread 使用�
 
 应该注意的是，只有套接字 Channel 才能配置为非阻塞，而 FileChannel 不能，为 FileChannel 配置非阻塞也没有意义。
 
+<<<<<<< HEAD
 <div align="center"> <img src="pics/4d930e22-f493-49ae-8dff-ea21cd6895dc.png"/> </div><br>
+=======
+<div align="center"> <img src="pics/8fdbb8f5-2cf8-41dc-b5f1-99d98abb52d9.jpg"/> </div><br>
+>>>>>>> 9f1571a1b578332969a00a0bda4029dfad9995a3
 
 ### 1. 创建选择器
 
