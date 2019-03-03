@@ -67,7 +67,7 @@
 ```html
 Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
-```3
+```
 
 題目描述：在有序數組中找出兩個數，使它們的和為 target。
 

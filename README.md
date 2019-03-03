@@ -107,15 +107,15 @@ https://cyc2018.github.io/CS-Notes
 
 筆記內容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 進行排版，以保證內容的可讀性。
 
-筆記不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 GFM 不支持 `<center> ![]() </center>` 讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
+筆記不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 [GFM](https://github.github.com/gfm/) 不支持 `<center> ![]() </center>` 讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
 
-我將自己實現的文檔排版功能提取出來，放在 Github Page 中，無需下載安裝即可免費使用：[Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)。
+在線排版工具：[Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)。
 
 ### 上傳方案
 
 我在本地使用為知筆記軟件進行書寫，為了方便將本地筆記內容上傳到 Github 上，實現了一整套自動化上傳方案，包括提取圖片、Markdown 文檔轉換、Git 同步。進行 Markdown 文檔轉換是因為 Github 使用的 GFM 不支持 MathJax 公式和 TOC 標記，所以需要替換 MathJax 公式為 CodeCogs 的雲服務和重新生成 TOC 目錄。
 
-我將自己實現文檔轉換功能提取出來，方便大家在需要將本地 Markdown 上傳到 Github，或者制作項目 README 文檔時生成目錄時使用：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
+GFM 轉換工具：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
 
 ### License
 
