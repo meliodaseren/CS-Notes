@@ -1,37 +1,37 @@
-# LeetCode 面試必備
- - 💪 就是幹！如果你覺得有幫助請點個star，謝謝！
+# LeetCode 面试必备
+ - 💪 就是干！如果你觉得有帮助请点个star，谢谢！
 
-> **歡迎任何人參與和完善：一個人可以走的很快，但是一群人卻可以走的更遠**
+> **欢迎任何人参与和完善：一个人可以走的很快，但是一群人却可以走的更远**
 
-## LeetCode 習題集合
+## LeetCode 习题集合
 
-* [LeetCode 解題集合](https://github.com/apachecn/LeetCode/tree/master/docs/Leetcode_Solutions)
+* [LeetCode 解题集合](https://github.com/apachecn/LeetCode/tree/master/docs/Leetcode_Solutions)
 
 
 ## 模版要求
 
-> 提交PR基本要求（滿足任意一種即可）
+> 提交PR基本要求（满足任意一种即可）
 
-* 1. 不一樣的思路
-* 2. 優化時間覆雜度和空間覆雜度，或者解決題目的Follow up
-* 3. 有意義的簡化代碼
-* 4. 未提交過的題目
+* 1. 不一样的思路
+* 2. 优化时间复杂度和空间复杂度，或者解决题目的Follow up
+* 3. 有意义的简化代码
+* 4. 未提交过的题目
 
 > **案例模版**
 
-[模版：007. Reverse Integer 反轉整數](https://github.com/apachecn/LeetCode/tree/master/docs/Leetcode_Solutions/007._Reverse_Integer.md)
+[模版：007. Reverse Integer 反转整数](https://github.com/apachecn/LeetCode/tree/master/docs/Leetcode_Solutions/007._Reverse_Integer.md)
 
 
-## 項目貢獻者
+## 项目贡献者
 
-> 項目發起人
-
-* [@Lisanaaa](https://github.com/Lisanaaa)
-* [@片刻](https://github.com/jiangzhonglian)
-
-> 貢獻者（歡迎大家來追加）
+> 项目发起人
 
 * [@Lisanaaa](https://github.com/Lisanaaa)
 * [@片刻](https://github.com/jiangzhonglian)
-* [@小瑤](https://github.com/chenyyx)
+
+> 贡献者（欢迎大家来追加）
+
+* [@Lisanaaa](https://github.com/Lisanaaa)
+* [@片刻](https://github.com/jiangzhonglian)
+* [@小瑶](https://github.com/chenyyx)
 
