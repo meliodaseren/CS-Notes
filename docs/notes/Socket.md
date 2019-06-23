@@ -84,10 +84,10 @@ ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags, struct sockaddr *
 
 ## 五大 I/O 模型比较
 
-- 同步 I/O：将数据从内核缓冲区复制到应用进程缓冲区的阶段，应用进程会阻塞。
-- 异步 I/O：不会阻塞。
+- 同步 I/O：将数据从内核缓冲区复制到应用进程缓冲区的阶段（第二阶段），应用进程会阻塞。
+- 异步 I/O：第二阶段应用进程不会阻塞。
 
-阻塞式 I/O、非阻塞式 I/O、I/O 复用和信号驱动 I/O 都是同步 I/O，它们的主要区别在第一个阶段。
+同步 I/O 包括阻塞式 I/O、非阻塞式 I/O、I/O 复用和信号驱动 I/O ，它们的主要区别在第一个阶段。
 
 非阻塞式 I/O 、信号驱动 I/O 和异步 I/O 在第一阶段不会阻塞。
 
@@ -321,6 +321,7 @@ poll 没有最大描述符数量的限制，如果平台支持并且对实时性
 - [poll vs select vs event-based](https://daniel.haxx.se/docs/poll-vs-select.html)
 - [select / poll / epoll: practical difference for system architects](http://www.ulduzsoft.com/2014/01/select-poll-epoll-practical-difference-for-system-architects/)
 - [Browse the source code of userspace/glibc/sysdeps/unix/sysv/linux/ online](https://code.woboq.org/userspace/glibc/sysdeps/unix/sysv/linux/)
+<<<<<<< HEAD
 
 
 
@@ -332,3 +333,17 @@ poll 没有最大描述符数量的限制，如果平台支持并且对实时性
 
 
 <div align="center"><img width="580px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/other/公众号海报2.png"></img></div>
+||||||| merged common ancestors
+=======
+
+
+
+
+# 微信公众号
+
+
+更多精彩内容将发布在微信公众号 CyC2018 上，你也可以在公众号后台和我交流学习和求职相关的问题。另外，公众号提供了该项目的 PDF 等离线阅读版本，后台回复 "下载" 即可领取。公众号也提供了一份技术面试复习大纲，不仅系统整理了面试知识点，而且标注了各个知识点的重要程度，从而帮你理清多而杂的面试知识点，后台回复 "大纲" 即可领取。我基本是按照这个大纲来进行复习的，对我拿到了 BAT 头条等 Offer 起到很大的帮助。你们完全可以和我一样根据大纲上列的知识点来进行复习，就不用看很多不重要的内容，也可以知道哪些内容很重要从而多安排一些复习时间。
+
+
+<div align="center"><img width="480px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/other/公众号海报3.png"></img></div>
+>>>>>>> 9720e9c32641609e5c5bd1b42537983f5b1993be
