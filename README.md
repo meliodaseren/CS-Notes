@@ -101,7 +101,6 @@ https://cyc2018.github.io/CS-Notes
 - 簡歷模版：[Markdown-Resume](https://github.com/CyC2018/Markdown-Resume)
 - 面經：[2018 這一年](https://www.nowcoder.com/discuss/137593)
 - 簡歷：https://cyc2018.github.io
-- 知乎：[CyC2018](https://www.zhihu.com/people/xiao-shi-guang-33/activities)
 - 小專欄：[後端面試進階指南](https://xiaozhuanlan.com/CyC2018)
 - QQ 交流群：[857210598](assets/group.png)
 
@@ -116,19 +115,19 @@ https://cyc2018.github.io/CS-Notes
 
 筆記內容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 進行排版，以保證內容的可讀性。
 
-筆記不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 [GFM](https://github.github.com/gfm/) 不支持 `<center> ![]() </center>` 讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
+不使用 `![]()` 這種方式來引用圖片，而是用 `<img>` 標簽。一方面是為了能夠控制圖片以合適的大小顯示，另一方面是因為 [GFM](https://github.github.com/gfm/) 不支持 `<center> ![]() </center>` 這種方法讓圖片居中顯示，只能使用 `<div align="center"> <img src=""/> </div>` 達到居中的效果。
 
 在線排版工具：[Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)。
 
 ### 上傳方案
 
-我在本地使用為知筆記軟件進行書寫，為了方便將本地筆記內容上傳到 Github 上，實現了一整套自動化上傳方案，包括提取圖片、Markdown 文檔轉換、Git 同步。進行 Markdown 文檔轉換是因為 Github 使用的 GFM 不支持 MathJax 公式和 TOC 標記，所以需要替換 MathJax 公式為 CodeCogs 的雲服務和重新生成 TOC 目錄。
+為了方便將本地筆記內容上傳到 Github 上，實現了一整套自動化上傳方案，包括提取圖片、Markdown 文檔轉換、Git 同步。進行 Markdown 文檔轉換是因為 Github 使用的 GFM 不支持 MathJax 公式和 TOC 標記，所以需要替換 MathJax 公式為 CodeCogs 的雲服務和重新生成 TOC 目錄。
 
 GFM 轉換工具：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
 
 ### License
 
-學習筆記 **不是** 從網上到處拼湊而來，除了少部分引用書上和技術文檔的原文，其余都是筆者的原創。在您引用本倉庫內容或者對內容進行修改演繹時，請署名並以相同方式共享，謝謝。
+本倉庫內容 **不是** 將網上的資料隨意拼湊而來，除了少部分引用書上和技術文檔的原文，其余都是我的原創。在您引用本倉庫內容或者對內容進行修改演繹時，請署名並以相同方式共享，謝謝。
 
 轉載文章請在開頭明顯處標明該頁面地址，公眾號等其它轉載請聯系 zhengyc101@163.com。
 
