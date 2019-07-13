@@ -47,14 +47,14 @@ Git 的版本库有一个称为 Stage 的暂存区以及最后的 History 版本
 - git reset -- files 使用当前分支上的修改覆盖暂存区，用来撤销最后一次 git add files
 - git checkout -- files 使用暂存区的修改覆盖工作目录，用来撤销本地修改
 
-<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/603dbb49-dac5-4825-9694-5f1d65cefd44.png" width="320px"> </div><br>
+<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/72ee7e9a-194d-42e9-b4d7-29c23417ca18.png" width="320px"> </div><br>
 
 可以跳过暂存区域直接从分支中取出修改，或者直接提交修改到分支中。
 
 - git commit -a 直接把所有文件的修改添加到暂存区然后执行提交
 - git checkout HEAD -- files 取出最后一次修改，可以用来进行回滚操作
 
-<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/265bab88-7be9-44c5-a33f-f93d9882c096.png" width="500px"> </div><br>
+<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/a4a0a6e6-386b-4bfa-b899-ec33d3310f3e.png" width="500px"> </div><br>
 
 # 分支实现
 
@@ -158,20 +158,6 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 - [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
 - [廖雪峰 : Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 - [Learn Git Branching](https://learngitbranching.js.org/)
-<<<<<<< HEAD
-
-
-
-
-# 微信公众号
-
-
-你可以在我的微信公众号后台与我交流。另外，公众号也提供了一份技术面试复习大纲，不仅系统整理了面试知识点，而且标注了各个知识点的重要程度，从而帮你理清多而杂的面试知识点，后台回复 "大纲" 即可领取。我基本是按照这个大纲来进行复习的，对我拿到了 BAT 头条等 Offer 起到很大的帮助。你们完全可以和我一样根据大纲上列的知识点来进行复习，就不用看很多不重要的内容，也可以知道哪些内容很重要从而多安排一些复习时间。公众号也提供了该项目的离线阅读版本，后台回复 "下载" 即可领取。
-
-
-<div align="center"><img width="580px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/other/公众号海报2.png"></img></div>
-||||||| merged common ancestors
-=======
 
 
 
@@ -182,5 +168,4 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 更多精彩内容将发布在微信公众号 CyC2018 上，你也可以在公众号后台和我交流学习和求职相关的问题。另外，公众号提供了该项目的 PDF 等离线阅读版本，后台回复 "下载" 即可领取。公众号也提供了一份技术面试复习大纲，不仅系统整理了面试知识点，而且标注了各个知识点的重要程度，从而帮你理清多而杂的面试知识点，后台回复 "大纲" 即可领取。我基本是按照这个大纲来进行复习的，对我拿到了 BAT 头条等 Offer 起到很大的帮助。你们完全可以和我一样根据大纲上列的知识点来进行复习，就不用看很多不重要的内容，也可以知道哪些内容很重要从而多安排一些复习时间。
 
 
-<div align="center"><img width="480px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/other/公众号海报3.png"></img></div>
->>>>>>> 9720e9c32641609e5c5bd1b42537983f5b1993be
+<br><div align="center"><img width="320px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/other/公众号海报.png"></img></div>
