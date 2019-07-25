@@ -2,8 +2,6 @@
 
 https://github.com/CyC2018/CS-Notes
 
-https://cyc2018.github.io/CS-Notes
-
 **最後與原 Repo 的同步時間：**
 2019/7/14
 
